@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NegoApp.exe" version="1.0.0.6" publicKeyToken="3781b69c2e412e21" language="fr-BE" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="shell32_16811.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NegoApp" version="1.0.0.6" language="neutral" processorArchitecture="x86" />
+    <commandLine file="NegoApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Options du manifeste de contrôle de compte d'utilisateur
+             Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le nœud 
+
+             requestedExecutionLevel par l'une des propositions suivantes.
+        <requestedExecutionLevel  level="asInvoker"  uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator"  uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable"  uiAccess="false" />
+
+            La spécification du nœud requestedExecutionLevel désactivera la virtualisation de fichiers et du Registre.
+            Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la compatibilité 
+            descendante, supprimez le noeud requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NegoApp.exe" size="166400">
+      <assemblyIdentity name="NegoApp" version="1.0.0.6" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>p957ILOVRt52ffjeC6WzvDTGvS0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="shell32_16811.ico" size="64065">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a2aqW2myGaluCopDkxhQmqb2iL0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Une liste de toutes les versions de Windows avec laquelle cette application peut fonctionner. Windows sélectionnera automatiquement l'environnement le plus compatible.-->
+      <!-- Si votre application est conçue pour fonctionner avec Windows 7, supprimez les commentaires du nœud supportedOS suivant-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=KIL\kil" issuerKeyHash="9f12d886bdf464bbdc63b88f0ea6dbc6edffe3bb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zahJ9HPDjwMlsiRwecp3D8eYeSE=</DigestValue></Reference></SignedInfo><SignatureValue>VbcEMk3907C4W87fe/5I8Xbi+SlEq7ohYWqZ4dR+HSZJxE23oFW+5kJh8lJcY0BE/lKpFtKgWDFlMs0qClzH/cKQHsIhITOuksJWv4ENRnjzl7hViCgXkwZa1cCMc5A4oJLwTd1p6Xy/nF00KwjBHFxqa2e85i5OVqCd979dL9o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0ILnDG17uSO3nnBtYhI+0xBvewamy6yZwp4JNq+uXzgRz0yBW7J1/JrKu6CuJHVRqrTuAkBy4nOMJkO9j81OQwJOu9Nc2zcpbIzOqZgplOlM/b1uOr5z11PgOW6oAB0Ulht5I/fA/azyQZ/tO4CezTIkKvkmfjvKYrjv3LtssnE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="217998c70f77ca797024b225038fc373f449a8cd" Description="" Url=""><as:assemblyIdentity name="NegoApp.exe" version="1.0.0.6" publicKeyToken="3781b69c2e412e21" language="fr-BE" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KIL\kil</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6R+axLNrwJ+9LzfXyTLvSUSwFL4=</DigestValue></Reference></SignedInfo><SignatureValue>SnijkoOnI0rkLL/IHAezdQPQQ2LT4Acsb68PImkmjnnW20wmWI30Ur3UmRYNDi2wCBt6q/SKyvBr6+CEHW2s9nJQJ+W7capjucaD4+fpW+cyipbYyLyR6GXS2xVXQd26RCcrFycO6edAMVRXVZ4Hh25Ig0dbQXc9AcUY7/NQ0qw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0ILnDG17uSO3nnBtYhI+0xBvewamy6yZwp4JNq+uXzgRz0yBW7J1/JrKu6CuJHVRqrTuAkBy4nOMJkO9j81OQwJOu9Nc2zcpbIzOqZgplOlM/b1uOr5z11PgOW6oAB0Ulht5I/fA/azyQZ/tO4CezTIkKvkmfjvKYrjv3LtssnE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCAR6gAwIBAgIQS5fCNLLr369IKEOIoGcslDANBgkqhkiG9w0BAQUFADAZMRcwFQYDVQQDHg4ASwBJAEwAXABrAGkAbDAeFw0xODA3MjgxMTA3MjBaFw0xOTA3MjgxNzA3MjBaMBkxFzAVBgNVBAMeDgBLAEkATABcAGsAaQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQgucMbXu5I7eecG1iEj7TEG97BqbLrJnCngk2r65fOBHPTIFbsnX8msq7oK4kdVGqtO4CQHLic4wmQ72PzU5DAk6701zbNylsjM6pmCmU6Uz9vW46vnPXU+A5bqgAHRSWG3kj98D9rPJBn+07gJ7NMiQq+SZ+O8piuO/cu2yycQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAJzGYq4SiN7q6nZfBkAfDFYh35KpL5jeEJKU4QsqWm/hSsfYPi5hCVQ8mqsidXaKZLXS15wrHPNMNkLO5cVFosaZo5tt8XyOnCninCo88FPKvvLqsI4KxobAELzIteVrkkmOfZrAuaBf+D+dZJObtEGYnJ8tDEBy8fsXa/+Hna/W</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
