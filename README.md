@@ -3,7 +3,6 @@ Programme simple de négociation bilatérale réalisé dans le cadre du Master e
 
 ***==== I/ CODE SOURCE ====***
 
-- README.md : Tutoriel du programme
 - FrmAPropos.vb : Code source du Formulaire "A propos"
 - FrmCarac.vb : Code source du Formulaire "Caractéristiques"
 - FrmMenu.vb : Code source du Formulaire principal "Programme Négociation"
