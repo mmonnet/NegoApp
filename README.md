@@ -1,7 +1,14 @@
 # NegoApp
 Logiciel simple de négociation bilatérale réalisé dans le cadre du Master en Relations Internationales de l'ULB, année 2017-2018.
 
-//////////////FONCTIONNEMENT///////////////
+//////////////ORGANISATION DU GITHUB//////////////
+
+1° 
+2° Excel
+3° 
+
+
+//////////////FONCTIONNEMENT DU PROGRAMME//////////////
 
 1) Lancer l'exécutable ;
 
