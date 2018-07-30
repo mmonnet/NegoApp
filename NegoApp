@@ -1,2 +1,5 @@
-git add /sousdossier/fichier.py
-git add dossier
+    git init
+    git add NegoApp
+    git commit -m "first commit"
+    git remote add origin https://github.com/mmonnet/NegoApp.git
+    git push -u origin master
